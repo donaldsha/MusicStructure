@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--background color for -->
+    <color name="primary_color" type="color">#FF000000</color>
+
+    <!--Albums color -->
+    <color name="album_color" type="color">#FF99CC00</color>
+
+    <!--Playlists color -->
+    <color name="playlist_color" type="color">#FFFFBB33</color>
+
+    <!--NowPlaying color -->
+    <color name="nowplaying_color" type="color">#FFFF4444</color>
+
+    <color name="home_color">#ffd700</color>
+</resources>

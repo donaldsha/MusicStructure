@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffebcd"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    tools:context="com.example.musicstructure.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/description_home">
+
+        <RelativeLayout
+            android:id="@+id/nowplaying_cat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingBottom="10dp">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:imeActionLabel = "@string/home"
+                android:layout_centerInParent="true"
+                android:background="@drawable/now_playing"
+                android:textSize="35sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/albums_cat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingBottom="10dp">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:background="@drawable/albums_icon"
+                android:textSize="35sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/artists_cat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingBottom="10dp">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:background="@drawable/artists"
+                android:textSize="35sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/pay_cat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingBottom="10dp">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:background="@drawable/pay_to_listen"
+                android:textSize="35sp"
+                android:paddingBottom="16dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MusicStructure</string>
+
+    <string name="home">Home</string>
+    <string name="category_payment">Payment</string>
+    <string name="payment_text">Here the user will be able to search, buy, listen or even download the songs that he/she likes and if they like they can add the songs to the artist or album, it depends.</string>
+    <string name="payment_implement">To implement this class I implement "Android Pay API" where user will be asked to register first and open their own account. After that they will enter the song database and search the song they want and pay by card.</string>
+    <string name="category_album">Album</string>
+    <string name="albums_text">Here the user is supposed to find the music album of the current song or he can search for an album of a specific singer. </string>
+    <string name="category_artist">Artist</string>
+    <string name="artists_text">In this activity the user will be able to find the songs that correspond to a certain artist.</string>
+    <string name="category_nowplaying">Now Playing</string>
+    <string name="description_home_text">From home(MainActivity) the user will have the option to choose whether he will see the current playing song or look for an album or artist or whether we wishes to buy new songs by clicking on Pay to Listen</string>
+    <string name="description_nowplaying_text">In this activity the user is supposed to see the current playing song with the whole information plus the buttons like: play, pause, next, shuffle etc.</string>
+</resources>
