@@ -1,0 +1,2 @@
+This is my third project I delivered to Udacity. These files contain the structure of a 
+Music Player App(the app is not completely functional, just the structure). 
